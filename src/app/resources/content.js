@@ -92,44 +92,121 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Percetakan Uang Republik Indonesia (PERURI)",
+        timeframe: "2024 - Present",
+        role: "Fullstack Developer (Frontend Focused) Intern",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20%
-            increase in user engagement and 30% faster load times.
+            Modernized the Meterai Elektronik system's frontend by migrating it
+            from PHP to Next.js, leveraging TypeScript for enhanced type safety
+            and implementing Next.js best practices. This resulted in a 40%
+            improvement in application performance, a 50% reduction in page load
+            times, and increased scalability while reducing frontend server load
+            by 30%.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows,
-            enabling designers to iterate 50% faster.
+            Engineered a critical component of the SPBE support application,
+            developing over 60 RESTful API endpoints using Express.js and
+            PostgreSQL, secured with JWT authentication. These APIs were
+            seamlessly integrated with a modern React.js and TypeScript
+            frontend, empowering users to perform CRUD operations and visualize
+            key performance indicators through interactive tables and charts.
+          </>,
+          <>
+            Optimized the Peruri Dashbent system by migrating it from a
+            Service-Oriented Architecture (SOA) to a modern stack featuring
+            Next.js and Express.js. This transition decreased server dependency
+            by 40%, accelerated API response times by 60%, and improved overall
+            system scalability by 50%.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            src: "/images/projects/peruri/metel.jpg",
+            alt: "Meterai Elektronik System",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "President University",
+        timeframe: "2024",
+        role: "Software Engineer Intern",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple
-            platforms, improving design consistency by 40%.
+            Spearheaded the digital transformation of the Internal Quality
+            Assurance Directorate by building an integrated digital
+            accreditation system. Leveraging Next.js server-side rendering (SSR)
+            and Express.js, the system achieved a 50% reduction in response time
+            for data synchronization and improved data accuracy by 35%.
           </>,
           <>
-            Led a cross-functional team to launch a new product line,
-            contributing to a 15% increase in overall company revenue.
+            Developed a modern and responsive accreditation management platform
+            using React.js components and Tailwind CSS. This resulted in a 40%
+            improvement in loading times, a 30% increase in user satisfaction
+            scores, and a 25% decrease in bounce rates across devices.
+          </>,
+          <>
+            Built a modular component library using TypeScript, reducing
+            development time for new features by 30% and ensuring consistent UI
+            implementation across the platform, which lowered bug rates by 25%.
           </>,
         ],
         images: [],
+      },
+      {
+        company: "PUFA Computing",
+        timeframe: "2023 - 2024",
+        role: "Frontend Developer",
+        achievements: [
+          <>
+            Implemented secure authentication processes using NextAuth.js and
+            Two-Factor Authentication (2FA) via TOTP codes with authenticator
+            apps. This security enhancement increased user registrations by 25%
+            and reduced unauthorized access attempts by 40%, strengthening
+            overall platform integrity.
+          </>,
+          <>
+            Enhanced SEO and accessibility by integrating Next.js best
+            practices, including server-side rendering (SSR) for critical pages
+            and ARIA roles for improved screen reader support. This resulted in
+            a 25% increase in organic traffic and compliance with WCAG
+            standards.
+          </>,
+          <>
+            Optimized website performance by leveraging lazy loading for images
+            and components, reducing initial page load times by 40% and
+            enhancing user experience on mobile devices
+          </>,
+        ],
+        images: [
+          {
+            src: "/images/projects/pufa/web1.jpg",
+            alt: "PUFA Computing Website",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/pufa/web2.jpg",
+            alt: "PUFA Computing Website",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/pufa/web3.jpg",
+            alt: "PUFA Computing Website",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/pufa/web4.jpg",
+            alt: "PUFA Computing Website",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
     ],
   },
@@ -138,12 +215,8 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "President University",
+        description: <>Informatics Engineering</>,
       },
     ],
   },
@@ -152,41 +225,36 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Frontend Developer",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>
+            Experienced in building modern, responsive, and interactive web and mobile applications. 
+            Skilled in <strong>Next.js and SvelteKit Frameworks</strong> for web development, <strong>React.js</strong> for dynamic UI components, and <strong>TailwindCSS</strong> for efficient styling. 
+            Strong proficiency in <strong>TypeScript and JavaScript</strong>, with hands-on experience in <strong>React Native</strong> for cross-platform mobile development.
+          </>
         ),
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
       },
       {
-        title: "Next.js",
+        title: "Backend Developer",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>
+            Specializes in developing scalable and high-performance backend systems. 
+            Proficient in <strong>Express.js (Node.js) and Laravel (PHP)</strong> for API and server-side development. 
+            Expertise in <strong>TypeScript, JavaScript, PHP, and Python</strong>, along with extensive experience working with <strong>MySQL, MongoDB, PostgreSQL, and Redis</strong>. 
+            Well-versed in <strong>Docker, Postman, Jest, and K6</strong> for backend testing and deployment.
+          </>
         ),
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
       },
+      {
+        title: "Scrum Master",
+        description: (
+          <>
+            Adept at leading Agile/Scrum teams to deliver efficient and high-quality software products. 
+            Skilled in <strong>Jira</strong> for sprint planning, backlog management, and tracking team performance. 
+            Strong facilitator of collaboration, ensuring smooth workflow and process optimization.
+          </>
+        ),
+      }      
     ],
   },
 };

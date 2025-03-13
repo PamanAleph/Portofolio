@@ -239,7 +239,7 @@ const about = {
         description: (
           <>
             Specializes in developing scalable and high-performance backend systems. 
-            Proficient in <strong>Express.js (Node.js) and Laravel (PHP)</strong> for API and server-side development. 
+            Proficient in <strong>Express.js (Node.js) and API Route (Next.js)</strong> for API and server-side development. 
             Expertise in <strong>TypeScript, JavaScript, PHP, and Python</strong>, along with extensive experience working with <strong>MySQL, MongoDB, PostgreSQL, and Redis</strong>. 
             Well-versed in <strong>Docker, Postman, Jest, and K6</strong> for backend testing and deployment.
           </>

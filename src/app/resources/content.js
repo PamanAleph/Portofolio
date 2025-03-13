@@ -47,12 +47,15 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Full-stack Engineer and Problem Solver</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I
-      craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      Alief Firmanda is a passionate Software Engineer building
+      user-friendly web applications. Skilled in{" "}
+      <strong>JavaScript (React.js, Next.js, Node.js)</strong>, I focus on
+      efficient, scalable solutions.
+      <br /> <strong>Scrum Master</strong> experience complements my
+      understanding of software development and team collaboration.
     </>
   ),
 };
@@ -228,9 +231,14 @@ const about = {
         title: "Frontend Developer",
         description: (
           <>
-            Experienced in building modern, responsive, and interactive web and mobile applications. 
-            Skilled in <strong>Next.js and SvelteKit Frameworks</strong> for web development, <strong>React.js</strong> for dynamic UI components, and <strong>TailwindCSS</strong> for efficient styling. 
-            Strong proficiency in <strong>TypeScript and JavaScript</strong>, with hands-on experience in <strong>React Native</strong> for cross-platform mobile development.
+            Experienced in building modern, responsive, and interactive web and
+            mobile applications. Skilled in{" "}
+            <strong>Next.js and SvelteKit Frameworks</strong> for web
+            development, <strong>React.js</strong> for dynamic UI components,
+            and <strong>TailwindCSS</strong> for efficient styling. Strong
+            proficiency in <strong>TypeScript and JavaScript</strong>, with
+            hands-on experience in <strong>React Native</strong> for
+            cross-platform mobile development.
           </>
         ),
       },
@@ -238,10 +246,15 @@ const about = {
         title: "Backend Developer",
         description: (
           <>
-            Specializes in developing scalable and high-performance backend systems. 
-            Proficient in <strong>Express.js (Node.js) and API Route (Next.js)</strong> for API and server-side development. 
-            Expertise in <strong>TypeScript, JavaScript, PHP, and Python</strong>, along with extensive experience working with <strong>MySQL, MongoDB, PostgreSQL, and Redis</strong>. 
-            Well-versed in <strong>Docker, Postman, Jest, and K6</strong> for backend testing and deployment.
+            Specializes in developing scalable and high-performance backend
+            systems. Proficient in{" "}
+            <strong>Express.js (Node.js) and API Route (Next.js)</strong> for
+            API and server-side development. Expertise in{" "}
+            <strong>TypeScript, JavaScript, PHP, and Python</strong>, along with
+            extensive experience working with{" "}
+            <strong>MySQL, MongoDB, PostgreSQL, and Redis</strong>. Well-versed
+            in <strong>Docker, Postman, Jest, and K6</strong> for backend
+            testing and deployment.
           </>
         ),
       },
@@ -249,12 +262,14 @@ const about = {
         title: "Scrum Master",
         description: (
           <>
-            Adept at leading Agile/Scrum teams to deliver efficient and high-quality software products. 
-            Skilled in <strong>Jira</strong> for sprint planning, backlog management, and tracking team performance. 
-            Strong facilitator of collaboration, ensuring smooth workflow and process optimization.
+            Adept at leading Agile/Scrum teams to deliver efficient and
+            high-quality software products. Skilled in <strong>Jira</strong> for
+            sprint planning, backlog management, and tracking team performance.
+            Strong facilitator of collaboration, ensuring smooth workflow and
+            process optimization.
           </>
         ),
-      }      
+      },
     ],
   },
 };

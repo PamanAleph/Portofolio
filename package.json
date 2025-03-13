@@ -1,5 +1,5 @@
 {
-  "name": "@once-ui-system/magic-portfolio",
+  "name": "alieffirmanda-portofolio",
   "version": "1.3.0",
   "scripts": {
     "dev": "next dev",

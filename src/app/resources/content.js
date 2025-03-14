@@ -50,8 +50,8 @@ const home = {
   headline: <>Full-stack Engineer and Problem Solver</>,
   subline: (
     <>
-      Alief Firmanda is a passionate Software Engineer building
-      user-friendly web applications. Skilled in{" "}
+      Alief Firmanda is a passionate Software Engineer building user-friendly
+      web applications. Skilled in{" "}
       <strong>JavaScript (React.js, Next.js, Node.js)</strong>, I focus on
       efficient, scalable solutions.
       <br /> <strong>Scrum Master</strong> experience complements my
@@ -213,6 +213,7 @@ const about = {
       },
     ],
   },
+
   studies: {
     display: true, // set to false to hide this section
     title: "Studies",
@@ -223,6 +224,55 @@ const about = {
       },
     ],
   },
+
+  organization: {
+    display: true, // set to false to hide this section
+    title: "Organization",
+    institutions: [
+      {
+        name: "President University Developer Club",
+        timeframe: "2024 - Present",
+        role: "Team Mentor - Frontend Developer Path",
+        achievements: [
+          <>
+            Mentored over 50 students in frontend development, guiding them
+            through React.js and Next.js projects, resulting in a 70% completion
+            rate of hands-on assignments.
+          </>,
+          <>
+            Designed structured learning modules, including coding exercises and
+            real-world scenarios, enhancing the overall learning experience.
+          </>,
+          <>
+            Provided one-on-one mentorship to students, improving their
+            problem-solving skills and fostering collaboration within the
+            developer community.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        name: "President University Faculty Association of Computing",
+        timeframe: "2023 - 2024",
+        role: "Member of Research and Technology",
+        achievements: [
+          <>
+            Led the development of the official website for the association
+            using Next.js and TypeScript, improving accessibility and providing
+            a centralized platform for members to access resources and event
+            details.
+          </>,
+          <>
+            Mentored junior members on modern frontend development best
+            practices, including component-based architecture, server-side
+            rendering (SSR), and static site generation (SSG) in Next.js.
+          </>,
+        ],
+        images: [],
+      },
+    ],
+  },
+
   technical: {
     display: true, // set to false to hide this section
     title: "Technical skills",

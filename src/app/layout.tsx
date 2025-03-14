@@ -12,8 +12,6 @@ import { Source_Code_Pro } from "next/font/google";
 import { person, home } from "@/app/resources/content";
 import { Background, Column, Flex, ToastProvider } from "@/once-ui/components";
 
-import { Analytics } from '@vercel/analytics/next';
-
 export async function generateMetadata() {
   return {
     metadataBase: new URL(`https://${baseURL}`),
@@ -159,7 +157,6 @@ export default async function RootLayout({ children }: RootLayoutProps) {
           <Footer />
         </Column>
       </ToastProvider>
-      <Analytics/>
     </Flex>
   );
 }

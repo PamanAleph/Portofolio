@@ -344,78 +344,15 @@ const certification = {
   label: "Certification",
   title: "My photo gallery",
   description: `A photo collection by ${person.name}`,
-  // Images from https://pexels.com
   images: [
     {
-      src: "/images/certification/ibm-cysec.jpg",
-      alt: "image",
-      orientation: "vertical",
+      title: "IBM Cybersecurity Analyst",
+      issuer: "IBM SkillsBuild",
+      date: "2024",
+src: "/images/certification/ibm-cysec.jpg",
+      alt: "IBM Cybersecurity Analyst Certificate",
     },
-    {
-      src: "/images/certification/ibm-cysec.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/certification/ibm-cysec.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/certification/ibm-cysec.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/certification/ibm-cysec.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/certification/ibm-cysec.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/certification/ibm-cysec.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/certification/ibm-cysec.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/certification/ibm-cysec.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/certification/ibm-cysec.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/certification/ibm-cysec.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/certification/ibm-cysec.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/certification/ibm-cysec.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/certification/ibm-cysec.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
+    
   ],
 };
 

@@ -1,0 +1,82 @@
+---
+title: "Digitalization of Internal Quality Assurance at President University"
+publishedAt: "2024-12-01"
+summary: "A web-based system that streamlines the quality evaluation process across departments and faculties, supporting academic development and accreditation renewal with automated reporting and reusable evaluation setups."
+images:
+  - "/images/projects/dpmi/web1.png"
+  - "/images/projects/dpmi/web2.png"
+  - "/images/projects/dpmi/web3.png"
+  - "/images/projects/dpmi/web4.png"
+  - "/images/projects/dpmi/web5.png"
+team:
+  - name: "Muhammad Alief Firmanda"
+    role: "Fullstack Developer"
+    avatar: "/images/avatar.jpg"
+---
+
+## Overview
+
+The **Digitalization of the Internal Quality Assurance Department** (Departemen Penjamin Mutu Internal) at President University is a full-featured platform that facilitates and automates the **academic quality evaluation process**. Designed to serve multiple departments and faculties, the platform enables structured and data-driven assessments that are vital for institutional development and accreditation renewal.
+
+## Key Features
+
+- **Evaluation Setup Management**: Admin can create reusable evaluation setups, which serve as a template for repeated assessments until changed.
+- **Role-Based Access Control (RBAC)**: Securely manages user access based on roles (e.g., Admin, Faculty Evaluator, Department User), ensuring proper data handling and visibility.
+- **Link-Based Evaluation Access**: Admin can generate unique access links that are restricted to users in specific departments, preventing unauthorized participation.
+- **Encrypted Access URLs**: Evaluation links use encrypted identifiers instead of plain IDs (e.g., `/form/1` becomes `/form/abC123Xyz==`) to prevent unauthorized access or manual URL manipulation.
+- **Automated Report Generation**:
+  - **Department-Level Reports**: Generate structured reports to evaluate and track department performance over time.
+  - **Faculty-Level Reports**: Aggregate department data into faculty-wide evaluation summaries.
+- **Hybrid Scoring System**:
+  - **Manual Scoring**: Admin can assign scores for qualitative answers, allowing human judgment for open-ended responses.
+  - **Automated Scoring**: Quantitative answers are scored automatically based on predefined logic, ensuring efficiency and consistency.
+- **Accreditation Support**: By automating and archiving evaluations, the system simplifies documentation for accreditation renewal processes.
+- **User-Friendly Interface**: A responsive and intuitive UI built using Next.js and Tailwind CSS to ensure accessibility for all stakeholders.
+
+## Technologies Used
+
+- **Frontend**: Developed with **Next.js**, applying best practices in component reuse, layout optimization, and performance.
+- **UI Framework**: **Tailwind CSS**, supporting mobile-first and responsive design.
+- **Backend**: Powered by **Express.js**, managing robust APIs with **RESTful design**.
+- **Database**: **PostgreSQL**, with normalized schemas to ensure scalable, efficient data storage.
+- **Authentication**: Uses **JWT (JSON Web Tokens)** for secure, stateless authentication.
+- **Authorization**: Implements **RBAC (Role-Based Access Control)** for access granularity.
+- **Security**: Ensures secure link generation and scoped access for evaluations using tokenized URL strategies.
+
+## Challenges and Learnings
+
+1. **Designing a Reusable Evaluation System**
+   - Solved the challenge of evaluation scalability by introducing setup templates that can be reused indefinitely until structurally changed.
+
+2. **Managing Access Control**
+   - Implemented a robust RBAC mechanism to ensure only authorized users can access their designated evaluation forms.
+
+3. **Link Generation and Scoped Access**
+   - Designed secure links that can only be accessed by users whose departments match the evaluation configuration, enhancing data integrity.
+
+4. **Database Normalization**
+   - Refactored the database into a fully normalized structure, significantly improving query performance and data consistency.
+
+5. **Fullstack Best Practices**
+   - Maintained strict code separation, followed MVC architecture on the backend, atomic design on the frontend, and modularized utilities for scalability.
+
+6. **Scoring Logic Implementation**
+   - Developed a hybrid scoring system where qualitative answers require manual review by admins, and quantitative questions are auto-scored. This approach maintains objectivity while supporting nuanced feedback.
+
+7. **Secure URL Design**
+   - Encrypted evaluation form URLs were implemented to prevent ID enumeration attacks. This ensures that only users with a valid, admin-generated link can access the corresponding evaluation form.
+
+8. **Migration from Supabase to PostgreSQL**
+   - Migrated from Supabase to PostgreSQL to support more efficient and scalable query performance. This improved system reliability and allowed for more complex evaluation logic.
+
+9. **Secure File Upload & Session Management**
+   - Developed a robust API to handle secure document uploads and implemented dependable session handling using JWT. This ensured secure user workflows during evaluation processes.
+
+10. **TypeScript & Linter Resolution**
+    - Encountered ESLint issues when defining data types in TypeScript. Solving this improved code quality and expanded practical understanding of type-safe frontend development.
+
+## Outcome
+
+The project successfully modernized the internal quality assurance workflow at President University. By automating evaluation processes, enforcing structured data collection, and enabling seamless reporting, the platform lays a strong foundation for academic quality improvement and simplifies the accreditation journey for every department.
+
+Future plans include integrating a notification system and analytics dashboard to provide deeper insights into department progress and historical performance trends.

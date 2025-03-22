@@ -1,0 +1,87 @@
+---
+title: "Optimizing Cashier Services for President University Canteen"
+publishedAt: "2023-12-15"
+summary: "Development of a Java-based GUI application aimed at optimizing cashier operations in the President University Canteen by automating calculations, improving accuracy, and enhancing the ordering experience."
+images:
+  - "/images/projects/kuliah/canteen/web1.png"
+  - "/images/projects/kuliah/canteen/web2.png"
+  - "/images/projects/kuliah/canteen/web3.png"
+  - "/images/projects/kuliah/canteen/web4.png"
+team:
+  - name: "Muhammad Alief Firmanda"
+    role: "Java GUI Developer"
+    avatar: "/images/avatar.jpg"
+---
+
+## Overview
+
+The **President University Canteen Cashier App** is a Java GUI application designed to streamline cashier operations by automating price calculations, order modifications, receipt generation, and payment processing. The project was initiated to solve manual errors in cashier transactions and improve trust between buyers and vendors.
+
+## Key Features
+
+- **Order Display**: A user-friendly interface for menu selection and real-time order summary.
+- **Automated Pricing**: Subtotal and total prices are calculated automatically, including a 10% tax.
+- **Order Modifications**: Items can be added or removed easily without restarting the entire order.
+- **Multiple Payment Methods**: Supports cash (manual input) and QRIS (auto-process).
+- **Receipt Generator**: Generates printed receipts for both customers and management reporting.
+- **Menu List Viewer**: Displays all menu items with prices for faster cashier response.
+
+## Technologies Used
+
+- **Programming Language**: Java
+- **IDE**: NetBeans
+- **GUI Library**: Java Swing
+- **Tools Used**:
+  - `JTable` for order lists and summaries
+  - `JTree` for hierarchical navigation
+  - Event-driven programming using ActionListeners
+
+## OOP Concepts Implemented
+
+- **Encapsulation**: Protected fields and methods like `result(String x)` and `result(double a, double b)` abstract internal logic.
+- **Inheritance**: `Footer` class inherits from `Header`, reusing and overriding methods like `bill()` and `billCashier()`.
+- **Polymorphism**: Common method names in different classes (e.g., `bill()`) behave differently depending on the object.
+- **Abstraction**: Abstracted operations through the `Cfield` class to clear and reset input fields efficiently.
+
+## Challenges and Learnings
+
+1. **Manual Error Elimination**
+   - Tackled inaccuracies in cashier calculations using auto-generated subtotals and tax logic.
+
+2. **UI/UX Design for Non-Technical Users**
+   - Designed an intuitive and accessible interface for ease of use by cashiers with minimal technical background.
+
+3. **Receipt Clarity & Transparency**
+   - Ensured itemized receipts and tax breakdowns for customer trust and management insights.
+
+4. **QRIS Integration**
+   - Enabled automated inputs for QRIS-based transactions, improving speed and minimizing errors.
+
+5. **Bug Handling**
+   - Encountered persistent UI bugs (e.g., menu display bug in sidebar linkage) that require future debugging efforts.
+
+## Screenshots
+
+Here are some GUI interfaces included in the project:
+
+- Menu ordering display with live subtotal and tax
+- Order table showing menu ID, quantity, and item price
+- Payment method selector (Cash vs QRIS)
+- Receipt print preview with itemized summary and 10% tax
+- Daily report auto-generated for finance teams
+
+## Outcome
+
+The Java GUI application achieved its primary goal of digitizing and optimizing cashier services in the President University Canteen. It eliminated common pricing errors, accelerated transactions, and improved the experience for both cashiers and customers. The project demonstrates effective use of **object-oriented principles** and delivers a real-world solution to a common problem in campus food services.
+
+## References
+
+- **Dapp Code**  
+  [https://www.youtube.com/watch?v=gDbuwFkEdUQ](https://www.youtube.com/watch?v=gDbuwFkEdUQ)
+
+- **PCODEP**  
+  [https://www.youtube.com/watch?v=mWKSXocPDOU&list=LL&index=4](https://www.youtube.com/watch?v=mWKSXocPDOU&list=LL&index=4)
+
+- **Kelas Terbuka** – OOP Concepts  
+- **Tutus Funny** – JTree in NetBeans  
+  [https://www.youtube.com/watch?v=zX6YtG20ScU](https://www.youtube.com/watch?v=zX6YtG20ScU)

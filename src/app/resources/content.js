@@ -342,17 +342,23 @@ const work = {
 
 const certification = {
   label: "Certification",
-  title: "My photo gallery",
-  description: `A photo collection by ${person.name}`,
+  title: "My Certification Gallery",
+  description: `A Certification collection by ${person.name}`,
   images: [
     {
       title: "IBM Cybersecurity Analyst",
       issuer: "IBM SkillsBuild",
       date: "2024",
-src: "/images/certification/ibm-cysec.jpg",
+      src: "/images/certification/ibm-cysec.jpg",
       alt: "IBM Cybersecurity Analyst Certificate",
     },
-    
+    {
+      title: "Foundations of Project Management",
+      issuer: "Google",
+      date: "2025",
+      src: "/images/certification/google-fpm.jpg",
+      alt: "Google Project Management Certificate",
+    },
   ],
 };
 
